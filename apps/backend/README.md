@@ -6,5 +6,5 @@ Course and code created by: Eric Roby
 
 ```bash
 pip install -r requirement.txt
-uvicorn books:app --reload --port=8000 --host=0.0.0.0
+uvicorn main:app --reload --port=8000 --host=0.0.0.0
 ```
