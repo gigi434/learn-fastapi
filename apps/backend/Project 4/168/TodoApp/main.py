@@ -1,7 +1,7 @@
 from fastapi import FastAPI
-from .models import Base
-from .database import engine
-from .routers import auth, todos, admin, users
+from TodoApp.models import Base
+from TodoApp.database import engine
+from TodoApp.routers import auth, todos, admin, users
 
 app = FastAPI()
 
